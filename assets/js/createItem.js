@@ -1,6 +1,5 @@
-const ul = document.querySelector("#ul");
 
-const listItems = [
+ const listItems = [
   {
     link: "https://shopee.com.br/PROMO%C3%87%C3%83O-LAN%C3%87AMENTO-!!-Mouse-Pad-Gamer-Profissional-Grande-70x35-Speed-Antiderrapante-i.359164659.16085796727",
     img: "deskpad_ozzix",
@@ -123,7 +122,7 @@ const listItems = [
   },
 ];
 
-for (let item of listItems) {
+/* for (let item of listItems) {
   const li = document.createElement("li");
   li.innerHTML = createItem(item.link, item.img, item.title, item.tag);
   ul.appendChild(li);
@@ -137,4 +136,6 @@ function createItem(link, img, title, tag) {
     </a>`;
 
   return item;
-}
+} */
+
+export default listItems;
